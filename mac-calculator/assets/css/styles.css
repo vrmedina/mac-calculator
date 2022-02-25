@@ -1,0 +1,104 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    margin-top: 30px;
+}
+
+body .window {
+    display: block;
+    width: 480px;
+    height: 704px;
+    border-radius: 25px;
+    border: 3px solid rgb(115, 112, 119);
+    background-color: rgb(80,78,83);
+    margin: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.29);
+}
+
+body .window .toppart {
+    background-color: rgb(80,78,83);
+    width: 100%;
+    height: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: inline-block;
+}
+
+body .window .toppart .bot {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin: 12px 7px 5px 7px;
+}
+
+body .window .toppart .r {
+    background-color: rgb(255, 57, 57);
+}
+body .window .toppart .y {
+    background-color: rgb(245, 191, 78);
+}
+body .window .toppart .g {
+    background-color: rgb(98, 197, 84);
+}
+
+body .window .input {
+    height: 110px;
+    font-size: 700%;
+    background-color: rgb(80,78,83);
+    color: white;
+    text-align: right;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+
+body .window .buttons {
+    display: inline-block;
+    font-size: 310%;
+    text-align: center;
+    vertical-align: middle;  
+}
+
+body .window .buttons .but{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 105px;
+    width: auto;
+    border: 1px solid rgb(80, 80, 80);
+    color: white;
+    line-height: 105px;
+}
+
+body .window .buttons .type1{
+    background-color: rgb(98, 97, 102); 
+    display: inline-block;
+    width: 120px;
+}
+
+body .window .buttons .type2{
+    background-color: rgb(125, 123, 127);
+    display: inline-block;
+    width: 120px;
+}
+
+body .window .buttons .type3{
+    background-color: rgb(251, 155, 30);
+    display: inline-block;
+    width: 120px;
+}
+
+body .window .buttons .type0{
+    background-color: rgb(125, 123, 127);
+    display: inline-block;
+    width: 240px;
+    border-bottom-left-radius: 20px;
+}
+
+body .window .buttons .i{
+    border-bottom-right-radius: 20px;
+}
+
+.r1 {
+    width: 100%;
+    display: block;
+}
